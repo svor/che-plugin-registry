@@ -7,4 +7,4 @@ description: Java Linting, Intellisense, formatting, refactoring, Maven/Gradle s
 icon: https://redhat.gallerycdn.vsassets.io/extensions/redhat/java/0.37.0/1547743724453/Microsoft.VisualStudio.Services.Icons.Default
 attributes:
   extension: "vscode:extension/redhat.java"
-  container-image: "vsvydenko/che-theia-java11:test"
+  container-image: "vsvydenko/theia-remote-plugin-java8:latest"
