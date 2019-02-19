@@ -5,7 +5,7 @@ name: Java Language Server
 title: Language Support for Java
 description: Java Linting, Intellisense, formatting, refactoring, Maven/Gradle support and more...
 icon: https://redhat.gallerycdn.vsassets.io/extensions/redhat/java/0.37.0/1547743724453/Microsoft.VisualStudio.Services.Icons.Default
-url: https://github.com/svor/che-plugin-registry/raw/java/plugins/org.eclipse.che.vscode-redhat.java/0.0.1/redhat.jaca-2.vsix
+url: https://github.com/svor/che-plugin-registry/raw/java/plugins/org.eclipse.che.vscode-redhat.java/0.0.1/redhat.java-0.36.0.vsix
 attributes:
   container-image: "vsvydenko/theia-remote-plugin-java8:latest"
   containerImage: "vsvydenko/theia-remote-plugin-java8:latest"
