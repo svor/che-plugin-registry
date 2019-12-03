@@ -54,6 +54,8 @@ spec:
            value: local-dir:///plugins
          - name: HOSTED_PLUGIN_HOSTNAME
            value: 0.0.0.0
+         - name: SHELL
+           value: /bin/bash
          - name: HOSTED_PLUGIN_PORT
            value: "3130"
      volumes:
