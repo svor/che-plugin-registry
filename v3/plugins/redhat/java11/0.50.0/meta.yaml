@@ -19,7 +19,7 @@ spec:
       - sh
       - -c
       - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
-      volumes:
+    volumes:
       - mountPath: "/home/theia/.m2"
         name: m2
   extensions:
