@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: "2019-10-03"
 spec:
   containers:
-  - image: "vsvydenko/crw-java11:test"
+  - image: "quay.io/crw/plugin-java11-rhel8:2.1-2"
     name: vscode-java
     memoryLimit: "1500Mi"
     args:
