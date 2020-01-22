@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: "2019-12-23"
 spec:
   containers:
-    - image: "quay.io/crw/plugin-java11-rhel8:2.1-2"
+    - image: "quay.io/crw/plugin-java11-rhel8:2.1-4"
       name: vscode-quarkus
       memoryLimit: "1500Mi"
       volumes:
