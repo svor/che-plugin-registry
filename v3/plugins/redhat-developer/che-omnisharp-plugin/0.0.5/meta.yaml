@@ -12,8 +12,12 @@ category: Language
 firstPublicationDate: "2019-10-01"
 spec:
   containers:
-  - image: "vsvydenko/che-remote-plugin-dotnet-2.2.105:next"
+  - image: "vsvydenko/dotnet-3.0-plugin:test"
     name: theia-omnisharp
     memoryLimit: "1024Mi"
+    args:
+      - sh
+      - -c
+      - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
   extensions:
     - https://github.com/redhat-developer/omnisharp-theia-plugin/releases/download/v0.0.5/omnisharp_theia_plugin.theia
