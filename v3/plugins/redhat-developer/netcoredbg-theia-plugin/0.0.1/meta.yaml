@@ -20,4 +20,4 @@ spec:
       - -c
       - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
   extensions:
-    - https://github.com/redhat-developer/netcoredbg-theia-plugin/releases/download/v0.0.1/netcoredbg_theia_plugin.theia
+    - https://github.com/svor/netcoredbg-theia-plugin/releases/download/v0.0.2/omnisharp_theia_plugin.theia
