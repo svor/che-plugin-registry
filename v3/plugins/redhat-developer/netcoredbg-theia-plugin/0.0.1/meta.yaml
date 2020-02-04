@@ -12,7 +12,7 @@ category: Debugger
 firstPublicationDate: "2019-04-19"
 spec:
   containers:
-  - image: "vsvydenko/che-remote-plugin-dotnet-2.2.105:next"
+  - image: "vsvydenko/dotnet-3.0-plugin:test"
     name: theia-netcoredbg
     memoryLimit: "512Mi"
   extensions:
