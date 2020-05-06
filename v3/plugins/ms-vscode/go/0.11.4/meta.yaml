@@ -12,11 +12,15 @@ category: Language
 firstPublicationDate: '2019-09-19'
 spec:
   containers:
-    - image: "quay.io/eclipse/che-sidecar-go:1.12.9-652ad19"
+    - image: "registry.redhat.io/codeready-workspaces/stacks-golang-rhel8@sha256:49cde28ff98ab79a0c011852ab33a3f74987979f02f9c15fe8f4cb132b8fe6f3"
       name: vscode-go
       memoryLimit: '512Mi'
+      args:
+        - sh
+        - -c
+        - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
       env:
       - name: GOPATH
-        value: /go:$(CHE_PROJECTS_ROOT)
+        value: /projects/.che/gopath:$(CHE_PROJECTS_ROOT)
   extensions:
     - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-go/Go-0.11.4.vsix
