@@ -81,7 +81,7 @@ spec:
      memoryLimit: "512M"
   initContainers:
   - name: remote-runtime-injector
-    image: "vsvydenko/che-theia-endpoint-runtime-binary:next"
+    image: "quay.io/eclipse/che-theia-endpoint-runtime-binary:next"
     volumes:
       - mountPath: "/remote-endpoint"
         name: remote-endpoint
