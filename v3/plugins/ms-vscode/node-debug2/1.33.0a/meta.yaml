@@ -18,4 +18,4 @@ spec:
     memoryLimit: '512Mi'
   extensions:
   - https://github.com/theia-ide/vscode-node-debug/releases/download/v1.35.3/node-debug-1.35.3.vsix
-  - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-node-debug2/node-debug2-1.33.0.vsix
+  - https://github.com/svor/my-private/releases/download/0.0.1/node-debug2-1.42.3.vsix
