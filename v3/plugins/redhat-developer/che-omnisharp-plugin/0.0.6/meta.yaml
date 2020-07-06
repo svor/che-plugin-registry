@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: "2020-01-05"
 spec:
   containers:
-  - image: "vsvydenko/che-dotnet-3.1:nightly"
+  - image: "https://raw.githubusercontent.com/svor/che-plugin-registry/sv/test3/v3/plugins/redhat-developer/netcoredbg-theia-plugin/0.0.3/meta.yaml"
     name: theia-omnisharp
     memoryLimit: "1024Mi"
     volumes:
