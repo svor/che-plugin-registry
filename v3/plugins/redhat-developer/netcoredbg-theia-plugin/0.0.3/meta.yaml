@@ -12,7 +12,7 @@ category: Debugger
 firstPublicationDate: "2020-01-05"
 spec:
   containers:
-  - image: "quay.io/eclipse/che-sidecar-dotnet:2.2.105-2fd6e78"
+  - image: "vsvydenko/sidecar-dotnet:3.1"
     name: theia-netcoredbg
     memoryLimit: "512Mi"
   extensions:
