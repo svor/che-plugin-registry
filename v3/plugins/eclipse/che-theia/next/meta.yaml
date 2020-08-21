@@ -58,7 +58,7 @@ spec:
         discoverable: false
   containers:
    - name: theia-ide
-     image: "vsvydenko/che-theia:next2"
+     image: "vsvydenko/che-theia:next"
      env:
          - name: THEIA_PLUGINS
            value: local-dir:///plugins
