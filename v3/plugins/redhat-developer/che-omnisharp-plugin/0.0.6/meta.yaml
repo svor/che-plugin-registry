@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: "2020-01-05"
 spec:
   containers:
-  - image: "vsvydenko/sidecar-dotnet:3.1"
+  - image: "vsvydenko/che-sidecar-dotnet:test"
     name: theia-omnisharp
     memoryLimit: "1024Mi"
     volumes:
