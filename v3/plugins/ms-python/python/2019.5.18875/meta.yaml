@@ -17,4 +17,4 @@ spec:
     name: vscode-python
     memoryLimit: '512Mi'
   extensions:
-  - https://github.com/microsoft/vscode-python/releases/download/2020.6.91350/ms-python-release.vsix
+  - https://github.com/microsoft/vscode-python/releases/download/2020.5.86806/ms-python-release.vsix
