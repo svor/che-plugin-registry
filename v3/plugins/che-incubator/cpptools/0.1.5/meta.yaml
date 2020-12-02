@@ -15,7 +15,7 @@ deprecate:
   migrateTo: eclipse-cdt/cdt-vscode/latest
 spec:
   containers:
-    - image: quay.io/eclipse/che-sidecar-clang:8-83adb3a
+    - image: vsvydenko/clang:test
       name: cpp-plugins
       memoryLimit: 512Mi
   extensions:
