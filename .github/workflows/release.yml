@@ -9,17 +9,7 @@
 
 name: Release Che Plugin Registry
 
-on:
-  workflow_dispatch:
-    inputs:
-      version:
-        description: 'release version in format 7.y.z'
-        required: true
-  push:
-    branches: 
-      - 'release'
-    paths:
-      - 'VERSION'
+on: [pull_request]
 
 jobs:
   release-build-publish:

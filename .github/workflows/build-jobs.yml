@@ -10,9 +10,10 @@
 name: Build/Publish
 
 on:
-  push:
-    branches: 
-      - master
+  pull_request:
+    paths:
+      - '**/*'
+      - '!sidecars/**'
 
 jobs:
   nightly-build-publish:

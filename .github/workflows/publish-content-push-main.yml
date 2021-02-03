@@ -9,11 +9,7 @@
 
 name: Publish Registry Content
 
-on:
-  workflow_run:
-    workflows: ["Build/Publish"]
-    types:
-      - completed
+on: [pull_request]
 
 jobs:
   publish:

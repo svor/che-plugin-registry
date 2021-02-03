@@ -8,12 +8,7 @@
 #
 
 name: Sidecar Build/Push
-on:
-  push:
-    paths:
-      - 'sidecars/**'
-    branches:
-      - master
+on: [pull_request]
 
 jobs:
   build-push:

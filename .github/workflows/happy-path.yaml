@@ -16,10 +16,6 @@ on:
     paths:
       - '**/*'
       - '!sidecars/**'
-  push:
-    paths:
-      - '**/*'
-      - '!sidecars/**'
 
 jobs:
   happy-path:
